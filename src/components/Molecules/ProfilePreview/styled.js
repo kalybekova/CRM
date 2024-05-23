@@ -4,6 +4,7 @@ export const ProfileStyled = styled.div`
   display: flex;
   align-items: center;
   gap: 16px;
+  cursor: pointer;
 `;
 
 export const ProfileImage = styled.img`

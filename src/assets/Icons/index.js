@@ -11,7 +11,11 @@ import Settings from "./settings";
 import GetHelp from "./GetHelp";
 import MailIcon from "./MailIcon";
 import BEllIcon from "./BellIcon";
-import BackArrow from './BackArrow'
+import BackArrow from "./BackArrow";
+import CheckIcon from "./CheckIcon";
+import SearchIcon from "./SearchIcon";
+import FilterIcon from "./FilterIcon";
+import CalendarIcon from "./CalendarIcon";
 
 export {
   DashboardIcon,
@@ -28,4 +32,8 @@ export {
   MailIcon,
   BEllIcon,
   BackArrow,
+  CheckIcon,
+  SearchIcon,
+  FilterIcon,
+  CalendarIcon,
 };
