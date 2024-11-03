@@ -11,7 +11,6 @@ export const SearchBlock = styled.div`
   gap: 12px;
   max-width: 486px;
   width: 100%;
-  margin-top: 24px;
 `;
 
 export const SearchInput = styled.input`

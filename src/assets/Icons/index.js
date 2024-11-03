@@ -16,6 +16,17 @@ import CheckIcon from "./CheckIcon";
 import SearchIcon from "./SearchIcon";
 import FilterIcon from "./FilterIcon";
 import CalendarIcon from "./CalendarIcon";
+import ChevronDownIcon from "./ChevronDown";
+import ArrowUp from "./ArrowUp";
+import Close from "./Close";
+import MyProfileUser from "./MyProfileUser";
+import MyProleLock from "./MyProfileLock";
+import MyProfileStore from "./MyProfileStore";
+import MyProfileCard from "./MyProfileCard";
+import MyProfilePrinter from "./MyProfilePrinter";
+import MyProfileTablerLink from "./MyProfileTablerLink";
+import Google from "./Google";
+import Apple from "./Apple";
 
 export {
   DashboardIcon,
@@ -36,4 +47,15 @@ export {
   SearchIcon,
   FilterIcon,
   CalendarIcon,
+  ChevronDownIcon,
+  ArrowUp,
+  Close,
+  MyProfileUser,
+  MyProleLock,
+  MyProfileStore,
+  MyProfileCard,
+  MyProfilePrinter,
+  MyProfileTablerLink,
+  Apple,
+  Google,
 };

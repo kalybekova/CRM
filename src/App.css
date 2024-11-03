@@ -6,3 +6,14 @@
 body {
   background: #fafafa;
 }
+
+.react-datepicker__input-container input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #718096;
+  width: 185px;
+  
+}

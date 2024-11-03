@@ -27,5 +27,6 @@ export const ChecboxRadio = styled.div`
   border-radius: 50%;
   border: 1px solid #cbd5e0;
   cursor: pointer;
-  margin: 23px 30px;
+  margin: ${({ margin }) => margin || 0};
+  /* margin: 23px 30px; */
 `;

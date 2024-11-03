@@ -13,7 +13,7 @@ import {
 import Checkbox from "../../Atoms/Checkbox/Checkbox";
 import moment from "moment";
 
-const Table = ({ data }) => {
+const Table = ({ data, haldlerForCheckbox }) => {
   return (
     <TableContainer>
       <TableHead>
@@ -31,7 +31,11 @@ const Table = ({ data }) => {
         {data?.map((item) => (
           <TableTr>
             <TableTd>
-              <Checkbox id={item.id} />
+              <Checkbox
+                margin="23px 30px"
+                item={item}
+                handler={haldlerForCheckbox}
+              />
             </TableTd>
             <TableTd>
               <TableOrder>{item.title}</TableOrder>

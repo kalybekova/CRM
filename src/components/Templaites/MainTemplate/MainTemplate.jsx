@@ -9,12 +9,7 @@ const MainTemplate = ({ children, title }) => {
       <SideBar />
       <MainContainer>
         <NavBar title={title} />
-          <Container>
-            
-            {children}
-            
-            </Container>
-        
+        <Container>{children}</Container>
       </MainContainer>
     </>
   );

@@ -9,8 +9,12 @@ import {
 
 import MailIcon from "../../../assets/Icons/MailIcon";
 import BellIcon from "../../../assets/Icons/BellIcon";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = ({ title }) => {
+
+
+  
   return (
     <NavbarStyled>
       <NavbarLeft>
@@ -21,7 +25,7 @@ const NavBar = ({ title }) => {
           <MailIcon />
           <BellIcon />
         </NavbarIconsStyled>
-        <ProfilePreview />
+        <ProfilePreview  />
       </NavbarRight>
     </NavbarStyled>
   );

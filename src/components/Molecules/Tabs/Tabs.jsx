@@ -1,11 +1,10 @@
 import React from "react";
 import { TabsContainer, TabsStyled } from "./styled";
-import { useState } from "react";
 
-const Tabs = ({ list, setTab }) => {
+export default function Tabs({ list, setTab }) {
   return (
     <TabsContainer>
-      {list.map((item) => (
+      {list?.map((item) => (
         <TabsStyled
           key={item.id}
           active={item.active ? "true" : "false"}
@@ -16,6 +15,4 @@ const Tabs = ({ list, setTab }) => {
       ))}
     </TabsContainer>
   );
-};
-
-export default Tabs;
+}

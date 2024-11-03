@@ -7,11 +7,18 @@ import {
 } from "./styled";
 import { CheckIcon } from "../../../assets/Icons";
 
-const Checkbox = ({ id }) => {
+const Checkbox = ({ item, handler }) => {
   return (
     <CheckboxContainer>
-      <ChecboxInput id={id} type="checkbox" />
-      <CheckboxLabel htmlFor={id}>
+      <ChecboxInput
+        id={item?.id}
+        checked={item?.checked}
+        type="checkbox"
+        onChange={(e) => {
+          handler(item.id, e.target.checked);
+        }}
+      />
+      <CheckboxLabel htmlFor={item?.id}>
         <ChecboxRadio>
           <CheckIcon />
         </ChecboxRadio>

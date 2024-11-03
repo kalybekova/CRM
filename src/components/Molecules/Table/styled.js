@@ -11,10 +11,12 @@ export const TableHead = styled.div`
 export const TableTr = styled.div`
   display: grid;
   align-items: flex-start;
-  grid-template-columns: 100px 1fr 0.6fr 1fr 0.7fr 0.7fr 1fr;
+  grid-template-columns: ${({ gridTemplateColumns }) =>
+    gridTemplateColumns || "100px 1fr 0.6fr 1fr 0.7fr 0.7fr 1fr"};
   border-bottom: 1px solid #eeeff2;
-  gap: 10px;
+  gap: 15px;
   padding: 15px 12px;
+  cursor: pointer;
 `;
 
 export const TableTh = styled.div`
